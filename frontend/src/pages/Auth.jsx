@@ -40,7 +40,7 @@ export default function Auth(){
         JSON.stringify(res.data.user)
       );
 
-      alert("Success");
+      window.location.href = "/";
 
     }catch(err){
 
