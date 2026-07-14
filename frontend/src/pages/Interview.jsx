@@ -90,7 +90,7 @@ export default function Interview(){
 
       const res = await axios.post(
 
-        "http://localhost:3000/api/interview/start",
+        import.meta.env.VITE_API_URL + "/api/interview/start",
 
         {
           resumeText

@@ -90,7 +90,7 @@ export default function Resume() {
 
       const res = await axios.post(
 
-        "http://localhost:3000/api/resume/analyze",
+        import.meta.env.VITE_API_URL + "/api/resume/analyze",
 
         {
           resumeText
